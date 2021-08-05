@@ -1,0 +1,17 @@
+@use 'custom';
+
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+@use 'components/animations.scss';
+
+@use 'section/companies';
+@use 'section/faq';
+@use 'section/footer';
+@use 'section/getstrted';
+@use 'section/intro';
+@use 'section/navbar';
+@use 'section/portfolio';
+@use 'section/services';
+@use 'section/testimonials';
+@use 'fontaw';

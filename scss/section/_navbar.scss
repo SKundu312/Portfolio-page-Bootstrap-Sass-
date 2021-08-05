@@ -1,0 +1,30 @@
+@use  '../custom' as *;
+@use '../components/mixins' as *;
+.menu{
+    @include gradient;
+    position: relative;
+    #left{
+        margin-left: 63px;
+        font-family: 'Qwigley', cursive;
+       
+        font-size: 15px;
+        font-style: italic;
+        position: absolute;
+        top:17px;
+        
+        transform-origin: center;
+        animation: sigRot 2s 1 ease both;
+    }
+    @keyframes sigRot{
+        0%{transform: rotateY(0deg);}
+        100%{transform: rotateY(360deg);}
+    }
+    li{
+        padding:0 0.7rem;
+        a{
+            color:$white !important;
+            text-transform: capitalize;
+            font-weight:600;
+        }
+    }
+}
